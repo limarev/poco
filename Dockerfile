@@ -31,4 +31,4 @@ RUN curl https://dl.google.com/android/repository/commandlinetools-linux-9477386
 && yes | sdkmanager --licenses \
 && sdkmanager --install "ndk-bundle" "platform-tools" "platforms;android-26" "build-tools;27.0.3" "extras;google;m2repository" "extras;android;m2repository"
 
-WORKDIR /share/poco-android
+WORKDIR /share
